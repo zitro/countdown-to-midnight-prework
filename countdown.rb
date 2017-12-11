@@ -1,8 +1,8 @@
 #write your code here
 
-def countdown
-  while x > 1
+def countdown(integer)
+  while integer > 0
   puts "HAPPY NEW YEAR!"
-  x -= 1
+  integer -= 1
 end
 end
