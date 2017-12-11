@@ -1,19 +1,19 @@
 #write your code here
 
 def countdown(integer)
-  x = integer
-  while x > 0
-    puts "#{x} SECOND(S)!"
+  while integer > 0
+    puts "#{integer} SECOND(S)!"
     x -= 1
   end
-    puts "HAPPY NEW YEAR!"
+    "HAPPY NEW YEAR!"
 end
 
 
 def countdown_with_sleep(integer)
-  x = integer(5)
-  while x > 0
-    puts "#{x} SECOND(S)!"
+  while integer > 0
+    puts "#{integer} SECOND(S)!"
+    sleep(1)
     x -= 1
   end
+  "HAPPY NEW YEAR!"
 end
